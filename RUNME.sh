@@ -13,5 +13,5 @@ if [ "$install" = "Y" ]; then
 elif [ "$install" = "n" ]; then
     echo "Now exiting the installer."
 else
-  echo ""
+    echo "Invalid input. Exiting."
 fi
